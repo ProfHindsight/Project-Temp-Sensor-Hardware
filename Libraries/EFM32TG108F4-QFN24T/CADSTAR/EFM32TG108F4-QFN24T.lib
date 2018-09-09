@@ -1,0 +1,18 @@
+.EFM32TG108F4-QFN24T :1 ;ARM Microcontrollers - MCU 4k Flash 2k RAM No AES
+QFN65P500X500X90-25N
+*STM IC
+*NGS
+*PLB 1="PA0" 2="IOVDD_0" 3="PC0" 4="PC1" 5="PB7" 6="PB8" 7="'RESET'" 8="PB11" 9="AVDD_2" 10="PB13" 11="PB14" 12="AVDD_0" 13="PD6" 14="PD7" 15="VDD_DREG" 16="DECOUPLE" 17="PC14" 18="PC15" 19="PF0" 20="PF1" 21="PF2" 22="IOVDD_5" 23="PE12" 24="PE13" 25="VSS"
+*MXP 25
+*DFN EFM32TG108F4-QFN24T
+~!Supplier_Name (RS)
+~!RS Part Number (-)
+~!Manufacturer_Name (Silicon Labs)
+~!Manufacturer_Part_Number (EFM32TG108F4-QFN24T)
+~!Allied_Number (-)
+~!Other Part Number (-)
+~!Link Datasheet (https://www.silabs.com/documents/public/data-sheets/EFM32TG108.pdf)
+~!Height (0.9mm)
+~!3D_Model (EFM32TG108F4-QFN24T)
+EFM32TG108F4-QFN24T
+1.1!U 2.1!P 3.1!U 4.1!U 5.1!U 6.1!U 7.1!I 8.1!U 9.1!P 10.1!U 11.1!U 12.1!P 18.1!U 17.1!U 16.1!P 15.1!P 14.1!U 13.1!U 25.1!G 24.1!U 23.1!U 22.1!P 21.1!U 20.1!U 19.1!U 

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Si7020-A20-GM
+D Si7020G Dig RH Temp Sensor Silicon Labs Si7020-A20-GM Temperature & Humidity Sensor, -40  +85 C, 6-Pin DFN
+K
+F https://componentsearchengine.com/Datasheets/1/SI7020-A20-GM.pdf
+$ENDCMP
+#
+#End Doc Library

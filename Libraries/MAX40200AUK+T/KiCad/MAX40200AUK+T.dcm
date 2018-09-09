@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MAX40200AUK+T
+D OR Controller Source Selector Switch P-Channel 1:1 SOT-23-5
+K
+F https://datasheets.maximintegrated.com/en/ds/MAX40200.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,18 @@
+.MAX40200AUK-plus-T :1 ;OR Controller Source Selector Switch P-Channel 1:1 SOT-23-5
+SOT95P280X145-5N
+*STM IC
+*NGS
+*PLB 1="VDD" 2="GND" 3="EN" 4="NC" 5="OUT"
+*MXP 5
+*DFN MAX40200AUK-plus-T
+~!Supplier_Name (RS)
+~!RS Part Number (-)
+~!Manufacturer_Name (Maxim Integrated)
+~!Manufacturer_Part_Number (MAX40200AUK+T)
+~!Allied_Number (-)
+~!Other Part Number (-)
+~!Link Datasheet (https://datasheets.maximintegrated.com/en/ds/MAX40200.pdf)
+~!Height (1.45mm)
+~!3D_Model (MAX40200AUK+T)
+MAX40200AUK-plus-T
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 

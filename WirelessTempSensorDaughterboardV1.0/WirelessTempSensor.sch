@@ -1,0 +1,351 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:bmp280
+LIBS:EFM32TG108F4-QFN24T
+LIBS:Si7020-A20-GM
+LIBS:BATT_HLDR
+LIBS:pushbutton
+LIBS:myLibrary
+LIBS:WirelessTempSensor-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Si7020-A20-GM IC2
+U 1 1 5A39C3A4
+P 8500 2800
+F 0 "IC2" H 9050 2950 50  0000 C CNN
+F 1 "Si7020-A20-GM" H 9050 2350 50  0000 C CNN
+F 2 "Si7020-A20-GM:SON100P300X300X80-7N" H 9050 2250 50  0001 C CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/SI7020-A20-GM.pdf" H 9050 2150 50  0001 C CNN
+F 4 "Si7020G Dig RH Temp Sensor Silicon Labs Si7020-A20-GM Temperature & Humidity Sensor, -40  +85 C, 6-Pin DFN" H 9050 2050 50  0001 C CNN "Description"
+F 5 "RS" H 9050 1950 50  0001 C CNN "Supplier_Name"
+F 6 "8652309" H 9050 1850 50  0001 C CNN "RS Part Number"
+F 7 "Silicon Labs" H 9050 1750 50  0001 C CNN "Manufacturer_Name"
+F 8 "Si7020-A20-GM" H 9050 1650 50  0001 C CNN "Manufacturer_Part_Number"
+F 9 "" H 9050 1550 50  0001 C CNN "Allied_Number"
+F 10 "" H 9050 1450 50  0001 C CNN "Other Part Number"
+F 11 "0.8" H 9450 1350 50  0001 C CNN "Height"
+	1    8500 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L bmp280 IC3
+U 1 1 5A39C4CC
+P 8500 4650
+F 0 "IC3" H 9150 4800 50  0000 C CNN
+F 1 "bmp280" H 9150 4200 50  0000 C CNN
+F 2 "bmp280:8-PIN-METAL-LID-LGA" H 9150 4100 50  0001 C CNN
+F 3 "https://ae-bst.resource.bosch.com/media/products/dokumente/bmp280/BST-BMP280-DS001-11.pdf" H 9150 4000 50  0001 C CNN
+F 4 "Digital Pressure Sensor" H 9150 3900 50  0001 C CNN "Description"
+F 5 "RS" H 9150 3800 50  0001 C CNN "Supplier_Name"
+F 6 "" H 9150 3700 50  0001 C CNN "RS Part Number"
+F 7 "Bosch Sensortec" H 9150 3600 50  0001 C CNN "Manufacturer_Name"
+F 8 "bmp280" H 9150 3500 50  0001 C CNN "Manufacturer_Part_Number"
+F 9 "" H 9150 3400 50  0001 C CNN "Allied_Number"
+F 10 "" H 9150 3300 50  0001 C CNN "Other Part Number"
+F 11 "" H 9650 3200 50  0001 C CNN "Height"
+	1    8500 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR5
+U 1 1 5A39C728
+P 8700 4300
+F 0 "#PWR5" H 8700 4050 50  0001 C CNN
+F 1 "GND" H 8700 4150 50  0000 C CNN
+F 2 "" H 8700 4300 50  0000 C CNN
+F 3 "" H 8700 4300 50  0000 C CNN
+	1    8700 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR8
+U 1 1 5A39C742
+P 10050 5100
+F 0 "#PWR8" H 10050 4850 50  0001 C CNN
+F 1 "GND" H 10050 4950 50  0000 C CNN
+F 2 "" H 10050 5100 50  0000 C CNN
+F 3 "" H 10050 5100 50  0000 C CNN
+	1    10050 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR3
+U 1 1 5A39C8FB
+P 8350 3350
+F 0 "#PWR3" H 8350 3100 50  0001 C CNN
+F 1 "GND" H 8350 3200 50  0000 C CNN
+F 2 "" H 8350 3350 50  0000 C CNN
+F 3 "" H 8350 3350 50  0000 C CNN
+	1    8350 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR6
+U 1 1 5A39C915
+P 9850 3250
+F 0 "#PWR6" H 9850 3000 50  0001 C CNN
+F 1 "GND" H 9850 3100 50  0000 C CNN
+F 2 "" H 9850 3250 50  0000 C CNN
+F 3 "" H 9850 3250 50  0000 C CNN
+	1    9850 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L +BATT #PWR7
+U 1 1 5A39D55B
+P 9950 2550
+F 0 "#PWR7" H 9950 2400 50  0001 C CNN
+F 1 "+BATT" H 9950 2690 50  0000 C CNN
+F 2 "" H 9950 2550 50  0000 C CNN
+F 3 "" H 9950 2550 50  0000 C CNN
+	1    9950 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L +BATT #PWR9
+U 1 1 5A39D5E2
+P 10150 4550
+F 0 "#PWR9" H 10150 4400 50  0001 C CNN
+F 1 "+BATT" H 10150 4690 50  0000 C CNN
+F 2 "" H 10150 4550 50  0000 C CNN
+F 3 "" H 10150 4550 50  0000 C CNN
+	1    10150 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8350 2900 8500 2900
+Wire Wire Line
+	8350 2900 8350 3350
+Wire Wire Line
+	9600 2800 9850 2800
+Wire Wire Line
+	9850 2800 9850 3250
+Wire Wire Line
+	9600 3000 9950 3000
+Wire Wire Line
+	9950 3000 9950 2550
+Wire Wire Line
+	10050 5100 10050 4850
+Wire Wire Line
+	10050 4850 9800 4850
+Wire Wire Line
+	9800 4750 10150 4750
+Wire Wire Line
+	10150 4750 10150 4550
+Wire Wire Line
+	9800 4950 10150 4950
+Wire Wire Line
+	10150 4950 10150 4700
+Connection ~ 10150 4700
+Wire Wire Line
+	8500 4650 8500 4250
+Wire Wire Line
+	8500 4250 9200 4250
+Wire Wire Line
+	8700 4250 8700 4300
+$Comp
+L C C3
+U 1 1 5A3C29A7
+P 9350 4250
+F 0 "C3" H 9375 4350 50  0000 L CNN
+F 1 "C" H 9375 4150 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 9388 4100 50  0001 C CNN
+F 3 "" H 9350 4250 50  0000 C CNN
+	1    9350 4250
+	0    1    1    0   
+$EndComp
+$Comp
+L C C4
+U 1 1 5A3C2BE8
+P 10250 2950
+F 0 "C4" H 10275 3050 50  0000 L CNN
+F 1 "C" H 10275 2850 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 10288 2800 50  0001 C CNN
+F 3 "" H 10250 2950 50  0000 C CNN
+	1    10250 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10250 2800 10250 2650
+Wire Wire Line
+	10250 2650 9950 2650
+Connection ~ 9950 2650
+Wire Wire Line
+	10250 3100 10250 3150
+Wire Wire Line
+	10250 3150 9850 3150
+Connection ~ 9850 3150
+Connection ~ 8700 4250
+Wire Wire Line
+	9500 4250 10000 4250
+Wire Wire Line
+	10000 4250 10000 4750
+Connection ~ 10000 4750
+NoConn ~ 8500 3000
+NoConn ~ 8500 3100
+$Comp
+L +BATT #PWR4
+U 1 1 5A3C50D2
+P 8350 4500
+F 0 "#PWR4" H 8350 4350 50  0001 C CNN
+F 1 "+BATT" H 8350 4640 50  0000 C CNN
+F 2 "" H 8350 4500 50  0000 C CNN
+F 3 "" H 8350 4500 50  0000 C CNN
+	1    8350 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8500 4750 8350 4750
+Wire Wire Line
+	8350 4750 8350 4500
+Text GLabel 10250 1150 1    60   Input ~ 0
+GND
+$Comp
+L GND #PWR10
+U 1 1 5A3C7F41
+P 10250 1300
+F 0 "#PWR10" H 10250 1050 50  0001 C CNN
+F 1 "GND" H 10250 1150 50  0000 C CNN
+F 2 "" H 10250 1300 50  0000 C CNN
+F 3 "" H 10250 1300 50  0000 C CNN
+	1    10250 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10250 1300 10250 1150
+Text GLabel 8250 4850 0    60   Input ~ 0
+SDA
+Text GLabel 8250 2800 0    60   Input ~ 0
+SDA
+Wire Wire Line
+	8250 2800 8500 2800
+Wire Wire Line
+	8250 4850 8500 4850
+Text GLabel 8250 4950 0    60   Input ~ 0
+SCL
+Wire Wire Line
+	8500 4950 8250 4950
+Text GLabel 10500 2750 2    60   Input ~ 0
+SCL
+Wire Wire Line
+	10500 2750 10050 2750
+Wire Wire Line
+	10050 2750 10050 2900
+Wire Wire Line
+	10050 2900 9600 2900
+$Comp
+L CONN_01X04 P3
+U 1 1 5A3CDF26
+P 9350 2200
+F 0 "P3" H 9350 2450 50  0000 C CNN
+F 1 "CONN_01X04" V 9450 2200 50  0000 C CNN
+F 2 "myLibrary:Conn_1x4_SMD" H 9350 2200 50  0001 C CNN
+F 3 "" H 9350 2200 50  0000 C CNN
+	1    9350 2200
+	1    0    0    -1  
+$EndComp
+Text GLabel 8800 2050 0    60   Input ~ 0
+VCC
+Text GLabel 8800 2150 0    60   Input ~ 0
+SDA
+Text GLabel 8800 2250 0    60   Input ~ 0
+SCL
+Text GLabel 8800 2350 0    60   Input ~ 0
+GND
+Wire Wire Line
+	9150 2350 8800 2350
+Wire Wire Line
+	8800 2250 9150 2250
+Wire Wire Line
+	9150 2150 8800 2150
+Wire Wire Line
+	8800 2050 9150 2050
+Wire Wire Line
+	9800 4650 9900 4650
+Wire Wire Line
+	9900 4650 9900 4850
+Connection ~ 9900 4850
+$Comp
+L C C1
+U 1 1 5A5556D8
+P 7400 1650
+F 0 "C1" H 7425 1750 50  0000 L CNN
+F 1 "C" H 7425 1550 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 7438 1500 50  0001 C CNN
+F 3 "" H 7400 1650 50  0000 C CNN
+	1    7400 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L +BATT #PWR1
+U 1 1 5A555796
+P 7400 1200
+F 0 "#PWR1" H 7400 1050 50  0001 C CNN
+F 1 "+BATT" H 7400 1340 50  0000 C CNN
+F 2 "" H 7400 1200 50  0000 C CNN
+F 3 "" H 7400 1200 50  0000 C CNN
+	1    7400 1200
+	1    0    0    -1  
+$EndComp
+Text GLabel 7050 1400 0    60   Input ~ 0
+VCC
+$Comp
+L GND #PWR2
+U 1 1 5A5557C7
+P 7400 1950
+F 0 "#PWR2" H 7400 1700 50  0001 C CNN
+F 1 "GND" H 7400 1800 50  0000 C CNN
+F 2 "" H 7400 1950 50  0000 C CNN
+F 3 "" H 7400 1950 50  0000 C CNN
+	1    7400 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7400 1950 7400 1800
+Wire Wire Line
+	7400 1500 7400 1200
+Wire Wire Line
+	7050 1400 7400 1400
+Connection ~ 7400 1400
+$EndSCHEMATC

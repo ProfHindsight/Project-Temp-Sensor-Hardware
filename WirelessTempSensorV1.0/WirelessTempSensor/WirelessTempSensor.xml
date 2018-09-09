@@ -1,0 +1,557 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:/Users/Colton/Desktop/Projects/Project Temp Sensor/WirelessTempSensorV1.0/WirelessTempSensor/WirelessTempSensor.sch</source>
+    <date>1/3/2018 4:24:01 PM</date>
+    <tool>Eeschema 4.0.5</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>WirelessTempSensor.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="IC2">
+      <value>Si7020-A20-GM</value>
+      <footprint>Si7020-A20-GM:SON100P300X300X80-7N</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/1/SI7020-A20-GM.pdf</datasheet>
+      <fields>
+        <field name="Description">Si7020G Dig RH Temp Sensor Silicon Labs Si7020-A20-GM Temperature &amp; Humidity Sensor, -40  +85 C, 6-Pin DFN</field>
+        <field name="Supplier_Name">RS</field>
+        <field name="RS Part Number">8652309</field>
+        <field name="Manufacturer_Name">Silicon Labs</field>
+        <field name="Manufacturer_Part_Number">Si7020-A20-GM</field>
+        <field name="Height">0.8</field>
+      </fields>
+      <libsource lib="Si7020-A20-GM" part="Si7020-A20-GM"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A39C3A4</tstamp>
+    </comp>
+    <comp ref="IC1">
+      <value>EFM32TG108F4-QFN24T</value>
+      <footprint>EFM32TG108F4-QFN24T:QFN65P500X500X90-25N</footprint>
+      <datasheet>https://www.silabs.com/documents/public/data-sheets/EFM32TG108.pdf</datasheet>
+      <fields>
+        <field name="Description">ARM Microcontrollers - MCU 4k Flash 2k RAM No AES</field>
+        <field name="Supplier_Name">RS</field>
+        <field name="Manufacturer_Name">Silicon Labs</field>
+        <field name="Manufacturer_Part_Number">EFM32TG108F4-QFN24T</field>
+        <field name="Height">0.9</field>
+      </fields>
+      <libsource lib="EFM32TG108F4-QFN24T" part="EFM32TG108F4-QFN24T"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A39C40B</tstamp>
+    </comp>
+    <comp ref="IC3">
+      <value>bmp280</value>
+      <footprint>bmp280:8-PIN-METAL-LID-LGA</footprint>
+      <datasheet>https://ae-bst.resource.bosch.com/media/products/dokumente/bmp280/BST-BMP280-DS001-11.pdf</datasheet>
+      <fields>
+        <field name="Description">Digital Pressure Sensor</field>
+        <field name="Supplier_Name">RS</field>
+        <field name="Manufacturer_Name">Bosch Sensortec</field>
+        <field name="Manufacturer_Part_Number">bmp280</field>
+      </fields>
+      <libsource lib="bmp280" part="bmp280"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A39C4CC</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>BATT_HLDR</value>
+      <footprint>footprints:BAT-HLD-001</footprint>
+      <libsource lib="BATT_HLDR" part="BATT_HLDR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A39CA4C</tstamp>
+    </comp>
+    <comp ref="H1">
+      <value>Batt_Neg_Contact</value>
+      <footprint>footprints:Batt_Neg_Contact</footprint>
+      <libsource lib="BATT_HLDR" part="Batt_Neg_Contact"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A3C1843</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>C</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A3C1CFA</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>C</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A3C29A7</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>C</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A3C2BE8</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>C</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A3C34A1</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>CONN_01X03</value>
+      <footprint>myLibrary:Conn_1x3_SMD</footprint>
+      <libsource lib="conn" part="CONN_01X03"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A3C554B</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>Pushbutton</value>
+      <footprint>myLibrary:PB-P010336</footprint>
+      <libsource lib="pushbutton" part="Pushbutton"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A3C6BCB</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>CONN_02X04</value>
+      <footprint>Connectors_Samtec:SDL-108-X-XX_2x04</footprint>
+      <libsource lib="conn" part="CONN_02X04"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A3C74C3</tstamp>
+    </comp>
+    <comp ref="P3">
+      <value>CONN_01X04</value>
+      <footprint>myLibrary:Conn_1x4_SMD</footprint>
+      <libsource lib="conn" part="CONN_01X04"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A3CDF26</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>R</value>
+      <footprint>Resistors_SMD:R_0402</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A3CF9F5</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>R</value>
+      <footprint>Resistors_SMD:R_0402</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A3CFB02</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>C</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A3D4E1C</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>C</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A3D5872</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>C</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A3D8390</tstamp>
+    </comp>
+    <comp ref="P5">
+      <value>CONN_01X02</value>
+      <footprint>myLibrary:Conn_1x2_SMD</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A4D53F3</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="BATT_HLDR" part="BATT_HLDR">
+      <footprints>
+        <fp>LINX_BATT_HLDR</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">BATT_HLDR</field>
+        <field name="Footprint">LINX_BATT_HLDR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="unspc"/>
+        <pin num="3" name="3" type="unspc"/>
+      </pins>
+    </libpart>
+    <libpart lib="BATT_HLDR" part="Batt_Neg_Contact">
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">Batt_Neg_Contact</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X02">
+      <description>Connector, single row, 01x02</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X02</fp>
+        <fp>Pin_Header_Angled_1X02</fp>
+        <fp>Socket_Strip_Straight_1X02</fp>
+        <fp>Socket_Strip_Angled_1X02</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X03">
+      <description>Connector, single row, 01x03</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X03</fp>
+        <fp>Pin_Header_Angled_1X03</fp>
+        <fp>Socket_Strip_Straight_1X03</fp>
+        <fp>Socket_Strip_Angled_1X03</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X04">
+      <description>Connector, single row, 01x04</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X04</fp>
+        <fp>Pin_Header_Angled_1X04</fp>
+        <fp>Socket_Strip_Straight_1X04</fp>
+        <fp>Socket_Strip_Angled_1X04</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_02X04">
+      <description>Connector, double row, 02x04</description>
+      <footprints>
+        <fp>Pin_Header_Straight_2X04</fp>
+        <fp>Pin_Header_Angled_2X04</fp>
+        <fp>Socket_Strip_Straight_2X04</fp>
+        <fp>Socket_Strip_Angled_2X04</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_02X04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="EFM32TG108F4-QFN24T" part="EFM32TG108F4-QFN24T">
+      <description>ARM Microcontrollers - MCU 4k Flash 2k RAM No AES</description>
+      <docs>https://www.silabs.com/documents/public/data-sheets/EFM32TG108.pdf</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">EFM32TG108F4-QFN24T</field>
+        <field name="Footprint">QFN65P500X500X90-25N</field>
+        <field name="Datasheet">https://www.silabs.com/documents/public/data-sheets/EFM32TG108.pdf</field>
+        <field name="Description">ARM Microcontrollers - MCU 4k Flash 2k RAM No AES</field>
+        <field name="Supplier_Name">RS</field>
+        <field name="Manufacturer_Name">Silicon Labs</field>
+        <field name="Manufacturer_Part_Number">EFM32TG108F4-QFN24T</field>
+        <field name="Height">0.9</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PA0" type="BiDi"/>
+        <pin num="2" name="IOVDD_0" type="power_in"/>
+        <pin num="3" name="PC0" type="BiDi"/>
+        <pin num="4" name="PC1" type="BiDi"/>
+        <pin num="5" name="PB7" type="BiDi"/>
+        <pin num="6" name="PB8" type="BiDi"/>
+        <pin num="7" name="~RESET" type="input"/>
+        <pin num="8" name="PB11" type="BiDi"/>
+        <pin num="9" name="AVDD_2" type="power_in"/>
+        <pin num="10" name="PB13" type="BiDi"/>
+        <pin num="11" name="PB14" type="BiDi"/>
+        <pin num="12" name="AVDD_0" type="power_in"/>
+        <pin num="13" name="PD6" type="BiDi"/>
+        <pin num="14" name="PD7" type="BiDi"/>
+        <pin num="15" name="VDD_DREG" type="power_in"/>
+        <pin num="16" name="DECOUPLE" type="power_in"/>
+        <pin num="17" name="PC14" type="BiDi"/>
+        <pin num="18" name="PC15" type="BiDi"/>
+        <pin num="19" name="PF0" type="BiDi"/>
+        <pin num="20" name="PF1" type="BiDi"/>
+        <pin num="21" name="PF2" type="BiDi"/>
+        <pin num="22" name="IOVDD_5" type="power_in"/>
+        <pin num="23" name="PE12" type="BiDi"/>
+        <pin num="24" name="PE13" type="BiDi"/>
+        <pin num="25" name="VSS" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="pushbutton" part="Pushbutton">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Pushbutton</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Si7020-A20-GM" part="Si7020-A20-GM">
+      <description>Si7020G Dig RH Temp Sensor Silicon Labs Si7020-A20-GM Temperature &amp; Humidity Sensor, -40  +85 C, 6-Pin DFN</description>
+      <docs>https://componentsearchengine.com/Datasheets/1/SI7020-A20-GM.pdf</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">Si7020-A20-GM</field>
+        <field name="Footprint">SON100P300X300X80-7N</field>
+        <field name="Datasheet">https://componentsearchengine.com/Datasheets/1/SI7020-A20-GM.pdf</field>
+        <field name="Description">Si7020G Dig RH Temp Sensor Silicon Labs Si7020-A20-GM Temperature &amp; Humidity Sensor, -40  +85 C, 6-Pin DFN</field>
+        <field name="Supplier_Name">RS</field>
+        <field name="RS Part Number">8652309</field>
+        <field name="Manufacturer_Name">Silicon Labs</field>
+        <field name="Manufacturer_Part_Number">Si7020-A20-GM</field>
+        <field name="Height">0.8</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SDA" type="BiDi"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="DNC(1)" type="unspc"/>
+        <pin num="4" name="DNC(2)" type="unspc"/>
+        <pin num="5" name="VDD" type="power_in"/>
+        <pin num="6" name="SCL" type="BiDi"/>
+        <pin num="7" name="TGND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="bmp280" part="bmp280">
+      <description>Digital Pressure Sensor</description>
+      <docs>https://ae-bst.resource.bosch.com/media/products/dokumente/bmp280/BST-BMP280-DS001-11.pdf</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">bmp280</field>
+        <field name="Footprint">8-PIN-METAL-LID-LGA</field>
+        <field name="Datasheet">https://ae-bst.resource.bosch.com/media/products/dokumente/bmp280/BST-BMP280-DS001-11.pdf</field>
+        <field name="Description">Digital Pressure Sensor</field>
+        <field name="Supplier_Name">RS</field>
+        <field name="Manufacturer_Name">Bosch Sensortec</field>
+        <field name="Manufacturer_Part_Number">bmp280</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND(1)" type="power_in"/>
+        <pin num="2" name="CSB" type="input"/>
+        <pin num="3" name="SDI" type="unspc"/>
+        <pin num="4" name="SCK" type="unspc"/>
+        <pin num="5" name="SDO" type="unspc"/>
+        <pin num="6" name="VDDIO(1)" type="power_in"/>
+        <pin num="7" name="GND(2)" type="power_in"/>
+        <pin num="8" name="VDDIO(2)" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="device">
+      <uri>T:\KiCad\share\kicad\library\device.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>T:\KiCad\share\kicad\library\conn.lib</uri>
+    </library>
+    <library logical="bmp280">
+      <uri>C:\Users\Colton\Desktop\Projects\Project Temp Sensor\Libraries\bmp280\KiCad\bmp280.lib</uri>
+    </library>
+    <library logical="EFM32TG108F4-QFN24T">
+      <uri>C:\Users\Colton\Desktop\Projects\Project Temp Sensor\Libraries\EFM32TG108F4-QFN24T\KiCad\EFM32TG108F4-QFN24T.lib</uri>
+    </library>
+    <library logical="BATT_HLDR">
+      <uri>C:\Users\Colton\Desktop\Projects\Project Temp Sensor\exports\KiCAD\KiCAD\BATT_HLDR.lib</uri>
+    </library>
+    <library logical="pushbutton">
+      <uri>C:\Users\Colton\Desktop\Projects\Project Temp Sensor\Libraries\pushbutton.lib</uri>
+    </library>
+    <library logical="Si7020-A20-GM">
+      <uri>C:\Users\Colton\Desktop\Projects\Project Temp Sensor\Libraries\Si7020-A20-GM\KiCad\Si7020-A20-GM.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="VCC">
+      <node ref="IC3" pin="8"/>
+      <node ref="IC3" pin="6"/>
+      <node ref="IC3" pin="5"/>
+      <node ref="IC1" pin="9"/>
+      <node ref="IC1" pin="2"/>
+      <node ref="C7" pin="1"/>
+      <node ref="R2" pin="1"/>
+      <node ref="R1" pin="1"/>
+      <node ref="C6" pin="1"/>
+      <node ref="U1" pin="3"/>
+      <node ref="U1" pin="1"/>
+      <node ref="P2" pin="7"/>
+      <node ref="P3" pin="1"/>
+      <node ref="IC2" pin="5"/>
+      <node ref="IC3" pin="2"/>
+      <node ref="IC1" pin="15"/>
+      <node ref="IC1" pin="22"/>
+      <node ref="IC1" pin="12"/>
+      <node ref="C1" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="C3" pin="1"/>
+    </net>
+    <net code="2" name="SCL">
+      <node ref="R1" pin="2"/>
+      <node ref="IC1" pin="14"/>
+      <node ref="IC2" pin="6"/>
+      <node ref="IC3" pin="4"/>
+      <node ref="P3" pin="3"/>
+    </net>
+    <net code="3" name="SDA">
+      <node ref="IC1" pin="13"/>
+      <node ref="IC3" pin="3"/>
+      <node ref="R2" pin="2"/>
+      <node ref="P3" pin="2"/>
+      <node ref="IC2" pin="1"/>
+    </net>
+    <net code="4" name="GND">
+      <node ref="C3" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="P1" pin="3"/>
+      <node ref="IC1" pin="24"/>
+      <node ref="U2" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="IC1" pin="23"/>
+      <node ref="IC1" pin="18"/>
+      <node ref="IC3" pin="1"/>
+      <node ref="IC1" pin="25"/>
+      <node ref="IC2" pin="2"/>
+      <node ref="IC2" pin="7"/>
+      <node ref="IC1" pin="11"/>
+      <node ref="IC1" pin="10"/>
+      <node ref="C2" pin="2"/>
+      <node ref="H1" pin="1"/>
+      <node ref="P3" pin="4"/>
+      <node ref="IC3" pin="7"/>
+      <node ref="P2" pin="8"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="P5" pin="2"/>
+      <node ref="C7" pin="2"/>
+    </net>
+    <net code="5" name="MOSI">
+      <node ref="IC1" pin="3"/>
+      <node ref="P2" pin="3"/>
+    </net>
+    <net code="6" name="MISO">
+      <node ref="IC1" pin="4"/>
+      <node ref="P2" pin="2"/>
+    </net>
+    <net code="7" name="CSN">
+      <node ref="P2" pin="5"/>
+      <node ref="IC1" pin="6"/>
+    </net>
+    <net code="8" name="SCK">
+      <node ref="P2" pin="4"/>
+      <node ref="IC1" pin="5"/>
+    </net>
+    <net code="9" name="Net-(C5-Pad1)">
+      <node ref="C5" pin="1"/>
+      <node ref="IC1" pin="7"/>
+      <node ref="U2" pin="1"/>
+    </net>
+    <net code="10" name="Net-(IC1-Pad21)">
+      <node ref="IC1" pin="21"/>
+    </net>
+    <net code="11" name="Net-(IC1-Pad20)">
+      <node ref="IC1" pin="20"/>
+      <node ref="P1" pin="1"/>
+    </net>
+    <net code="12" name="Net-(IC1-Pad19)">
+      <node ref="P1" pin="2"/>
+      <node ref="IC1" pin="19"/>
+    </net>
+    <net code="13" name="CE">
+      <node ref="IC1" pin="1"/>
+      <node ref="P2" pin="6"/>
+    </net>
+    <net code="14" name="IRQ">
+      <node ref="IC1" pin="8"/>
+      <node ref="P2" pin="1"/>
+    </net>
+    <net code="15" name="Net-(IC1-Pad17)">
+      <node ref="P5" pin="1"/>
+      <node ref="IC1" pin="17"/>
+    </net>
+    <net code="16" name="Net-(IC2-Pad4)">
+      <node ref="IC2" pin="4"/>
+    </net>
+    <net code="17" name="Net-(IC2-Pad3)">
+      <node ref="IC2" pin="3"/>
+    </net>
+    <net code="18" name="Net-(C2-Pad1)">
+      <node ref="IC1" pin="16"/>
+      <node ref="C2" pin="1"/>
+    </net>
+  </nets>
+</export>

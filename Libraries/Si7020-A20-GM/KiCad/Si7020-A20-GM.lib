@@ -1,0 +1,30 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model Si7020-A20-GM
+#/237188/3567/2.18/7/4/Integrated Circuit
+DEF Si7020-A20-GM IC 0 30 Y Y 1 F N
+F0 "IC" 550 150 50 H V C CNN
+F1 "Si7020-A20-GM" 550 -450 50 H V C CNN
+F2 "SON100P300X300X80-7N" 550 -550 50 H I C CNN
+F3 "https://componentsearchengine.com/Datasheets/1/SI7020-A20-GM.pdf" 550 -650 50 H I C CNN
+F4 "Si7020G Dig RH Temp Sensor Silicon Labs Si7020-A20-GM Temperature & Humidity Sensor, -40  +85 C, 6-Pin DFN" 550 -750 50 H I C CNN "Description"
+F5 "RS" 550 -850 50 H I C CNN "Supplier_Name"
+F6 "8652309" 550 -950 50 H I C CNN "RS Part Number"
+F7 "Silicon Labs" 550 -1050 50 H I C CNN "Manufacturer_Name"
+F8 "Si7020-A20-GM" 550 -1150 50 H I C CNN "Manufacturer_Part_Number"
+F9 "" 550 -1250 50 H I C CNN "Allied_Number"
+F10 "" 550 -1350 50 H I C CNN "Other Part Number"
+F11 "0.8" 950 -1450 50 H I C CNN "Height"
+DRAW
+S 200 100 900 -400 0 0 10 f
+X SDA 1 0 0 200 R 50 50 0 0 B
+X GND 2 0 -100 200 R 50 50 0 0 W
+X DNC(1) 3 0 -200 200 R 50 50 0 0 U
+X DNC(2) 4 0 -300 200 R 50 50 0 0 U
+X TGND 7 1100 0 200 L 50 50 0 0 W
+X SCL 6 1100 -100 200 L 50 50 0 0 B
+X VDD 5 1100 -200 200 L 50 50 0 0 W
+ENDDRAW
+ENDDEF
+#
+#End Library

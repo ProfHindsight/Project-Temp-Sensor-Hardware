@@ -1,0 +1,6 @@
+﻿send 'U'
+wait '3A85'
+send 'u'
+wait 'C'
+xmodemsend 'C:\Users\Colton\SimplicityStudio\v4_workspace\RF24_Test\GNU ARM v4.9.3 - Debug\RF24_Test.bin' 1
+send 'b'

@@ -1,0 +1,7 @@
+(fp_lib_table
+  (lib (name myLibrary)(type KiCad)(uri "$(KIPRJMOD)\\myLibrary.pretty")(options "")(descr ""))
+  (lib (name footprints)(type KiCad)(uri "C:\\Users\\Colton\\Desktop\\Projects\\Project Temp Sensor\\exports\\KiCAD\\KiCAD\\footprints.pretty")(options "")(descr ""))
+  (lib (name bmp280)(type Legacy)(uri "C:\\Users\\Colton\\Desktop\\Projects\\Project Temp Sensor\\Libraries\\bmp280\\KiCad\\bmp280.mod")(options "")(descr ""))
+  (lib (name EFM32TG108F4-QFN24T)(type Legacy)(uri "C:\\Users\\Colton\\Desktop\\Projects\\Project Temp Sensor\\Libraries\\EFM32TG108F4-QFN24T\\KiCad\\EFM32TG108F4-QFN24T.mod")(options "")(descr ""))
+  (lib (name Si7020-A20-GM)(type Legacy)(uri "C:\\Users\\Colton\\Desktop\\Projects\\Project Temp Sensor\\Libraries\\Si7020-A20-GM\\KiCad\\Si7020-A20-GM.mod")(options "")(descr ""))
+)

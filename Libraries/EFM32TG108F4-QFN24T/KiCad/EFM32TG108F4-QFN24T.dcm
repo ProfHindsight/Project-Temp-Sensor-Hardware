@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP EFM32TG108F4-QFN24T
+D ARM Microcontrollers - MCU 4k Flash 2k RAM No AES
+K
+F https://www.silabs.com/documents/public/data-sheets/EFM32TG108.pdf
+$ENDCMP
+#
+#End Doc Library

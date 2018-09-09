@@ -1,0 +1,17 @@
+.10118192-0001LF :1 ;FCI,10118192-0001LF,Connector,USB FCI Right Angle Surface Mount Mount Female USB Connector, 100 V ac, 1.8A
+"10118192-0001LF"
+*STM J
+*NGS
+*PLB 1="1" 2="2" 3="3" 4="4" 5="5"
+*MXP 11
+*DFN 10118192-0001LF
+~!Supplier_Name (RS)
+~!RS Part Number (8632986)
+~!Manufacturer_Name (FCI)
+~!Manufacturer_Part_Number (10118192-0001LF)
+~!Allied_Number (70236826)
+~!Other Part Number (-)
+~!Link Datasheet (http://docs-europe.electrocomponents.com/webdocs/1450/0900766b814507ee.pdf)
+~!Height (-)
+"10118192-0001LF"
+1.1!U 3.1!U 5.1!U 2.1!U 4.1!U 

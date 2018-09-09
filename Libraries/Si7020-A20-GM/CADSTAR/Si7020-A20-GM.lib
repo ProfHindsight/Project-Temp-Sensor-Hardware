@@ -1,0 +1,18 @@
+.Si7020-A20-GM :1 ;Si7020G Dig RH Temp Sensor Silicon Labs Si7020-A20-GM Temperature & Humidity Sensor, -40  +85 C, 6-Pin DFN
+SON100P300X300X80-7N
+*STM IC
+*NGS
+*PLB 1="SDA" 2="GND" 3="DNC(1)" 4="DNC(2)" 5="VDD" 6="SCL" 7="TGND"
+*MXP 7
+*DFN Si7020-A20-GM
+~!Supplier_Name (RS)
+~!RS Part Number (8652309)
+~!Manufacturer_Name (Silicon Labs)
+~!Manufacturer_Part_Number (Si7020-A20-GM)
+~!Allied_Number (-)
+~!Other Part Number (-)
+~!Link Datasheet (https://componentsearchengine.com/Datasheets/1/SI7020-A20-GM.pdf)
+~!Height (0.8mm)
+~!3D_Model (Si7020-A20-GM)
+Si7020-A20-GM
+1.1!U 2.1!G 3.1!U 4.1!U 7.1!G 6.1!U 5.1!P 

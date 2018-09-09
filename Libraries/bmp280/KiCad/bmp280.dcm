@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP bmp280
+D Digital Pressure Sensor
+K
+F https://ae-bst.resource.bosch.com/media/products/dokumente/bmp280/BST-BMP280-DS001-11.pdf
+$ENDCMP
+#
+#End Doc Library
